@@ -1,9 +1,12 @@
+import React from 'react'
+
+import Header from "./components/header"
 const App = () => {
   return (
     <div className="min-h-screen">
-      <h4 className="text-3xl">Hello Hardhat and Tailwind</h4>
+      <Header/>
     </div>
   )
 }
 
-export default App
+export default App;
